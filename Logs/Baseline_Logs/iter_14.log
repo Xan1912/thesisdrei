@@ -1,0 +1,59 @@
+2021-10-03 09:57:07.886642: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-10-03 09:57:09.909957: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+Epoch 1/10
+
+
+
+14/14 [==============================] - 72s 817ms/step - loss: 0.8494 - accuracy: 0.4486 - val_loss: 0.6933 - val_accuracy: 0.4694
+Epoch 2/10
+
+
+
+14/14 [==============================] - 8s 583ms/step - loss: 0.6889 - accuracy: 0.5424 - val_loss: 0.6578 - val_accuracy: 0.6939
+Epoch 3/10
+
+
+
+14/14 [==============================] - 8s 561ms/step - loss: 0.6660 - accuracy: 0.6293 - val_loss: 0.6650 - val_accuracy: 0.5918
+Epoch 4/10
+
+
+
+14/14 [==============================] - 8s 586ms/step - loss: 0.6167 - accuracy: 0.7222 - val_loss: 0.5805 - val_accuracy: 0.6939
+Epoch 5/10
+
+
+
+14/14 [==============================] - 8s 555ms/step - loss: 0.5377 - accuracy: 0.7460 - val_loss: 0.7686 - val_accuracy: 0.6327
+Epoch 6/10
+
+
+14/14 [==============================] - 8s 552ms/step - loss: 0.3305 - accuracy: 0.8672 - val_loss: 0.7574 - val_accuracy: 0.7143
+Epoch 7/10
+
+
+14/14 [==============================] - 8s 544ms/step - loss: 0.2048 - accuracy: 0.9231 - val_loss: 0.7280 - val_accuracy: 0.7143
+Epoch 8/10
+
+
+
+14/14 [==============================] - 8s 545ms/step - loss: 0.1030 - accuracy: 0.9683 - val_loss: 0.9198 - val_accuracy: 0.6735
+Epoch 9/10
+
+
+
+14/14 [==============================] - 7s 535ms/step - loss: 0.0532 - accuracy: 0.9812 - val_loss: 1.6803 - val_accuracy: 0.6531
+Epoch 10/10
+
+
+
+
+14/14 [==============================] - 8s 549ms/step - loss: 0.0167 - accuracy: 0.9970 - val_loss: 2.1625 - val_accuracy: 0.6531
+Result:
+               precision    recall  f1-score   support
+           0       0.48      0.67      0.56        99
+           1       0.53      0.34      0.42       108
+    accuracy                           0.50       207
+   macro avg       0.51      0.50      0.49       207
+weighted avg       0.51      0.50      0.48       207

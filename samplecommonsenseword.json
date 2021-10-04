@@ -1,0 +1,698 @@
+{
+	"@context": [
+		"http://api.conceptnet.io/ld/conceptnet5.7/context.ld.json"
+	],
+	"@id": "/c/en/knees",
+	"edges": [{
+			"@id": "/a/[/r/AtLocation/,/c/en/knees/,/c/en/table/]",
+			"@type": "Edge",
+			"dataset": "/d/conceptnet/4/en",
+			"end": {
+				"@id": "/c/en/table",
+				"@type": "Node",
+				"label": "the table",
+				"language": "en",
+				"term": "/c/en/table"
+			},
+			"license": "cc:by/4.0",
+			"rel": {
+				"@id": "/r/AtLocation",
+				"@type": "Relation",
+				"label": "AtLocation"
+			},
+			"sources": [{
+					"@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]",
+					"@type": "Source",
+					"activity": "/s/activity/omcs/omcs1_possibly_free_text",
+					"contributor": "/s/contributor/omcs/bedume"
+				},
+				{
+					"@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/laserjoy/]",
+					"@type": "Source",
+					"activity": "/s/activity/omcs/vote",
+					"contributor": "/s/contributor/omcs/laserjoy"
+				}
+			],
+			"start": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"surfaceText": "*Something you find under [[the table]] is [[knees]]",
+			"weight": 2.0
+		},
+		{
+			"@id": "/a/[/r/AtLocation/,/c/en/knees/,/c/en/desk/]",
+			"@type": "Edge",
+			"dataset": "/d/conceptnet/4/en",
+			"end": {
+				"@id": "/c/en/desk",
+				"@type": "Node",
+				"label": "a desk",
+				"language": "en",
+				"term": "/c/en/desk"
+			},
+			"license": "cc:by/4.0",
+			"rel": {
+				"@id": "/r/AtLocation",
+				"@type": "Relation",
+				"label": "AtLocation"
+			},
+			"sources": [{
+				"@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]",
+				"@type": "Source",
+				"activity": "/s/activity/omcs/omcs1_possibly_free_text",
+				"contributor": "/s/contributor/omcs/bedume"
+			}],
+			"start": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"surfaceText": "*Something you find under [[a desk]] is [[knees]]",
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/HasPrerequisite/,/c/en/dancing_samba/,/c/en/knees/]",
+			"@type": "Edge",
+			"dataset": "/d/conceptnet/4/en",
+			"end": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"license": "cc:by/4.0",
+			"rel": {
+				"@id": "/r/HasPrerequisite",
+				"@type": "Relation",
+				"label": "HasPrerequisite"
+			},
+			"sources": [{
+				"@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/boojum/]",
+				"@type": "Source",
+				"activity": "/s/activity/omcs/omcs1_possibly_free_text",
+				"contributor": "/s/contributor/omcs/boojum"
+			}],
+			"start": {
+				"@id": "/c/en/dancing_samba",
+				"@type": "Node",
+				"label": "dancing the samba",
+				"language": "en",
+				"term": "/c/en/dancing_samba"
+			},
+			"surfaceText": "[[dancing the samba]] requires [[knees]]",
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/RelatedTo/,/c/en/knees/n/,/c/en/knee/]",
+			"@type": "Edge",
+			"dataset": "/d/wiktionary/fr",
+			"end": {
+				"@id": "/c/en/knee",
+				"@type": "Node",
+				"label": "knee",
+				"language": "en",
+				"term": "/c/en/knee"
+			},
+			"license": "cc:by-sa/4.0",
+			"rel": {
+				"@id": "/r/RelatedTo",
+				"@type": "Relation",
+				"label": "RelatedTo"
+			},
+			"sources": [{
+				"@id": "/and/[/s/process/wikiparsec/2/,/s/resource/wiktionary/fr/]",
+				"@type": "Source",
+				"contributor": "/s/resource/wiktionary/fr",
+				"process": "/s/process/wikiparsec/2"
+			}],
+			"start": {
+				"@id": "/c/en/knees/n",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"sense_label": "n",
+				"term": "/c/en/knees"
+			},
+			"surfaceText": null,
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/RelatedTo/,/c/dlm/denacle/n/,/c/en/knees/]",
+			"@type": "Edge",
+			"dataset": "/d/wiktionary/en",
+			"end": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"license": "cc:by-sa/4.0",
+			"rel": {
+				"@id": "/r/RelatedTo",
+				"@type": "Relation",
+				"label": "RelatedTo"
+			},
+			"sources": [{
+				"@id": "/and/[/s/process/wikiparsec/2/,/s/resource/wiktionary/en/]",
+				"@type": "Source",
+				"contributor": "/s/resource/wiktionary/en",
+				"process": "/s/process/wikiparsec/2"
+			}],
+			"start": {
+				"@id": "/c/dlm/denacle/n",
+				"@type": "Node",
+				"label": "denacle",
+				"language": "dlm",
+				"sense_label": "n",
+				"term": "/c/dlm/denacle"
+			},
+			"surfaceText": null,
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/RelatedTo/,/c/xto/kanweṃ/n/,/c/en/knees/]",
+			"@type": "Edge",
+			"dataset": "/d/wiktionary/en",
+			"end": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"license": "cc:by-sa/4.0",
+			"rel": {
+				"@id": "/r/RelatedTo",
+				"@type": "Relation",
+				"label": "RelatedTo"
+			},
+			"sources": [{
+				"@id": "/and/[/s/process/wikiparsec/2/,/s/resource/wiktionary/en/]",
+				"@type": "Source",
+				"contributor": "/s/resource/wiktionary/en",
+				"process": "/s/process/wikiparsec/2"
+			}],
+			"start": {
+				"@id": "/c/xto/kanweṃ/n",
+				"@type": "Node",
+				"label": "kanweṃ",
+				"language": "xto",
+				"sense_label": "n",
+				"term": "/c/xto/kanweṃ"
+			},
+			"surfaceText": null,
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/FormOf/,/c/en/knees/,/c/en/knee/v/]",
+			"@type": "Edge",
+			"dataset": "/d/wiktionary/de",
+			"end": {
+				"@id": "/c/en/knee/v",
+				"@type": "Node",
+				"label": "knee",
+				"language": "en",
+				"sense_label": "v",
+				"term": "/c/en/knee"
+			},
+			"license": "cc:by-sa/4.0",
+			"rel": {
+				"@id": "/r/FormOf",
+				"@type": "Relation",
+				"label": "FormOf"
+			},
+			"sources": [{
+				"@id": "/and/[/s/process/wikiparsec/2/,/s/resource/wiktionary/de/]",
+				"@type": "Source",
+				"contributor": "/s/resource/wiktionary/de",
+				"process": "/s/process/wikiparsec/2"
+			}],
+			"start": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"surfaceText": null,
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/RelatedTo/,/c/sco/bandy/a/,/c/en/knees/]",
+			"@type": "Edge",
+			"dataset": "/d/wiktionary/en",
+			"end": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"license": "cc:by-sa/4.0",
+			"rel": {
+				"@id": "/r/RelatedTo",
+				"@type": "Relation",
+				"label": "RelatedTo"
+			},
+			"sources": [{
+				"@id": "/and/[/s/process/wikiparsec/2/,/s/resource/wiktionary/en/]",
+				"@type": "Source",
+				"contributor": "/s/resource/wiktionary/en",
+				"process": "/s/process/wikiparsec/2"
+			}],
+			"start": {
+				"@id": "/c/sco/bandy/a",
+				"@type": "Node",
+				"label": "bandy",
+				"language": "sco",
+				"sense_label": "a",
+				"term": "/c/sco/bandy"
+			},
+			"surfaceText": null,
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/RelatedTo/,/c/en/lap/n/wikt/en_1/,/c/en/knees/]",
+			"@type": "Edge",
+			"dataset": "/d/wiktionary/en",
+			"end": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"license": "cc:by-sa/4.0",
+			"rel": {
+				"@id": "/r/RelatedTo",
+				"@type": "Relation",
+				"label": "RelatedTo"
+			},
+			"sources": [{
+				"@id": "/and/[/s/process/wikiparsec/2/,/s/resource/wiktionary/en/]",
+				"@type": "Source",
+				"contributor": "/s/resource/wiktionary/en",
+				"process": "/s/process/wikiparsec/2"
+			}],
+			"start": {
+				"@id": "/c/en/lap/n/wikt/en_1",
+				"@type": "Node",
+				"label": "lap",
+				"language": "en",
+				"sense_label": "n",
+				"term": "/c/en/lap"
+			},
+			"surfaceText": null,
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/RelatedTo/,/c/en/knees/v/,/c/en/knee/]",
+			"@type": "Edge",
+			"dataset": "/d/wiktionary/fr",
+			"end": {
+				"@id": "/c/en/knee",
+				"@type": "Node",
+				"label": "knee",
+				"language": "en",
+				"term": "/c/en/knee"
+			},
+			"license": "cc:by-sa/4.0",
+			"rel": {
+				"@id": "/r/RelatedTo",
+				"@type": "Relation",
+				"label": "RelatedTo"
+			},
+			"sources": [{
+				"@id": "/and/[/s/process/wikiparsec/2/,/s/resource/wiktionary/fr/]",
+				"@type": "Source",
+				"contributor": "/s/resource/wiktionary/fr",
+				"process": "/s/process/wikiparsec/2"
+			}],
+			"start": {
+				"@id": "/c/en/knees/v",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"sense_label": "v",
+				"term": "/c/en/knees"
+			},
+			"surfaceText": null,
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/FormOf/,/c/en/knees/,/c/en/knee/n/]",
+			"@type": "Edge",
+			"dataset": "/d/wiktionary/de",
+			"end": {
+				"@id": "/c/en/knee/n",
+				"@type": "Node",
+				"label": "knee",
+				"language": "en",
+				"sense_label": "n",
+				"term": "/c/en/knee"
+			},
+			"license": "cc:by-sa/4.0",
+			"rel": {
+				"@id": "/r/FormOf",
+				"@type": "Relation",
+				"label": "FormOf"
+			},
+			"sources": [{
+				"@id": "/and/[/s/process/wikiparsec/2/,/s/resource/wiktionary/de/]",
+				"@type": "Source",
+				"contributor": "/s/resource/wiktionary/de",
+				"process": "/s/process/wikiparsec/2"
+			}],
+			"start": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"surfaceText": null,
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/HasA/,/c/en/frogs/,/c/en/knees/]",
+			"@type": "Edge",
+			"dataset": "/d/conceptnet/4/en",
+			"end": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"license": "cc:by/4.0",
+			"rel": {
+				"@id": "/r/HasA",
+				"@type": "Relation",
+				"label": "HasA"
+			},
+			"sources": [{
+				"@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/etude112/]",
+				"@type": "Source",
+				"activity": "/s/activity/omcs/omcs1_possibly_free_text",
+				"contributor": "/s/contributor/omcs/etude112"
+			}],
+			"start": {
+				"@id": "/c/en/frogs",
+				"@type": "Node",
+				"label": "frogs",
+				"language": "en",
+				"term": "/c/en/frogs"
+			},
+			"surfaceText": "[[frogs]] have [[knees]]",
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/RelatedTo/,/c/en/squat/v/wikt/en_1/,/c/en/knees/]",
+			"@type": "Edge",
+			"dataset": "/d/wiktionary/en",
+			"end": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"license": "cc:by-sa/4.0",
+			"rel": {
+				"@id": "/r/RelatedTo",
+				"@type": "Relation",
+				"label": "RelatedTo"
+			},
+			"sources": [{
+				"@id": "/and/[/s/process/wikiparsec/2/,/s/resource/wiktionary/en/]",
+				"@type": "Source",
+				"contributor": "/s/resource/wiktionary/en",
+				"process": "/s/process/wikiparsec/2"
+			}],
+			"start": {
+				"@id": "/c/en/squat/v/wikt/en_1",
+				"@type": "Node",
+				"label": "squat",
+				"language": "en",
+				"sense_label": "v",
+				"term": "/c/en/squat"
+			},
+			"surfaceText": null,
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/RelatedTo/,/c/sv/shorts/n/,/c/en/knees/]",
+			"@type": "Edge",
+			"dataset": "/d/wiktionary/en",
+			"end": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"license": "cc:by-sa/4.0",
+			"rel": {
+				"@id": "/r/RelatedTo",
+				"@type": "Relation",
+				"label": "RelatedTo"
+			},
+			"sources": [{
+				"@id": "/and/[/s/process/wikiparsec/2/,/s/resource/wiktionary/en/]",
+				"@type": "Source",
+				"contributor": "/s/resource/wiktionary/en",
+				"process": "/s/process/wikiparsec/2"
+			}],
+			"start": {
+				"@id": "/c/sv/shorts/n",
+				"@type": "Node",
+				"label": "shorts",
+				"language": "sv",
+				"sense_label": "n",
+				"term": "/c/sv/shorts"
+			},
+			"surfaceText": null,
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/RelatedTo/,/c/it/genuflesso/a/,/c/en/knees/]",
+			"@type": "Edge",
+			"dataset": "/d/wiktionary/en",
+			"end": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"license": "cc:by-sa/4.0",
+			"rel": {
+				"@id": "/r/RelatedTo",
+				"@type": "Relation",
+				"label": "RelatedTo"
+			},
+			"sources": [{
+				"@id": "/and/[/s/process/wikiparsec/2/,/s/resource/wiktionary/en/]",
+				"@type": "Source",
+				"contributor": "/s/resource/wiktionary/en",
+				"process": "/s/process/wikiparsec/2"
+			}],
+			"start": {
+				"@id": "/c/it/genuflesso/a",
+				"@type": "Node",
+				"label": "genuflesso",
+				"language": "it",
+				"sense_label": "a",
+				"term": "/c/it/genuflesso"
+			},
+			"surfaceText": null,
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/HasPrerequisite/,/c/en/sitting_down/,/c/en/knees/]",
+			"@type": "Edge",
+			"dataset": "/d/conceptnet/4/en",
+			"end": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"license": "cc:by/4.0",
+			"rel": {
+				"@id": "/r/HasPrerequisite",
+				"@type": "Relation",
+				"label": "HasPrerequisite"
+			},
+			"sources": [{
+				"@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/markfarrar/]",
+				"@type": "Source",
+				"activity": "/s/activity/omcs/omcs1_possibly_free_text",
+				"contributor": "/s/contributor/omcs/markfarrar"
+			}],
+			"start": {
+				"@id": "/c/en/sitting_down",
+				"@type": "Node",
+				"label": "sitting down",
+				"language": "en",
+				"term": "/c/en/sitting_down"
+			},
+			"surfaceText": "[[sitting down]] requires [[knees]]",
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/FormOf/,/c/en/knees/v/,/c/en/knee/]",
+			"@type": "Edge",
+			"dataset": "/d/wiktionary/en",
+			"end": {
+				"@id": "/c/en/knee",
+				"@type": "Node",
+				"label": "knee",
+				"language": "en",
+				"term": "/c/en/knee"
+			},
+			"license": "cc:by-sa/4.0",
+			"rel": {
+				"@id": "/r/FormOf",
+				"@type": "Relation",
+				"label": "FormOf"
+			},
+			"sources": [{
+				"@id": "/and/[/s/process/wikiparsec/2/,/s/resource/wiktionary/en/]",
+				"@type": "Source",
+				"contributor": "/s/resource/wiktionary/en",
+				"process": "/s/process/wikiparsec/2"
+			}],
+			"start": {
+				"@id": "/c/en/knees/v",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"sense_label": "v",
+				"term": "/c/en/knees"
+			},
+			"surfaceText": null,
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/RelatedTo/,/c/lv/auklēt/v/,/c/en/knees/]",
+			"@type": "Edge",
+			"dataset": "/d/wiktionary/en",
+			"end": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"license": "cc:by-sa/4.0",
+			"rel": {
+				"@id": "/r/RelatedTo",
+				"@type": "Relation",
+				"label": "RelatedTo"
+			},
+			"sources": [{
+				"@id": "/and/[/s/process/wikiparsec/2/,/s/resource/wiktionary/en/]",
+				"@type": "Source",
+				"contributor": "/s/resource/wiktionary/en",
+				"process": "/s/process/wikiparsec/2"
+			}],
+			"start": {
+				"@id": "/c/lv/auklēt/v",
+				"@type": "Node",
+				"label": "auklēt",
+				"language": "lv",
+				"sense_label": "v",
+				"term": "/c/lv/auklēt"
+			},
+			"surfaceText": null,
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/RelatedTo/,/c/lv/stulms/n/,/c/en/knees/]",
+			"@type": "Edge",
+			"dataset": "/d/wiktionary/en",
+			"end": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"license": "cc:by-sa/4.0",
+			"rel": {
+				"@id": "/r/RelatedTo",
+				"@type": "Relation",
+				"label": "RelatedTo"
+			},
+			"sources": [{
+				"@id": "/and/[/s/process/wikiparsec/2/,/s/resource/wiktionary/en/]",
+				"@type": "Source",
+				"contributor": "/s/resource/wiktionary/en",
+				"process": "/s/process/wikiparsec/2"
+			}],
+			"start": {
+				"@id": "/c/lv/stulms/n",
+				"@type": "Node",
+				"label": "stulms",
+				"language": "lv",
+				"sense_label": "n",
+				"term": "/c/lv/stulms"
+			},
+			"surfaceText": null,
+			"weight": 1.0
+		},
+		{
+			"@id": "/a/[/r/RelatedTo/,/c/en/bandy/a/wikt/en_2/,/c/en/knees/]",
+			"@type": "Edge",
+			"dataset": "/d/wiktionary/en",
+			"end": {
+				"@id": "/c/en/knees",
+				"@type": "Node",
+				"label": "knees",
+				"language": "en",
+				"term": "/c/en/knees"
+			},
+			"license": "cc:by-sa/4.0",
+			"rel": {
+				"@id": "/r/RelatedTo",
+				"@type": "Relation",
+				"label": "RelatedTo"
+			},
+			"sources": [{
+				"@id": "/and/[/s/process/wikiparsec/2/,/s/resource/wiktionary/en/]",
+				"@type": "Source",
+				"contributor": "/s/resource/wiktionary/en",
+				"process": "/s/process/wikiparsec/2"
+			}],
+			"start": {
+				"@id": "/c/en/bandy/a/wikt/en_2",
+				"@type": "Node",
+				"label": "bandy",
+				"language": "en",
+				"sense_label": "a",
+				"term": "/c/en/bandy"
+			},
+			"surfaceText": null,
+			"weight": 1.0
+		}
+	],
+	"version": "5.8.1",
+	"view": {
+		"@id": "/c/en/knees?offset=0&limit=20",
+		"@type": "PartialCollectionView",
+		"comment": "There are more results. Follow the 'nextPage' link for more.",
+		"firstPage": "/c/en/knees?offset=0&limit=20",
+		"nextPage": "/c/en/knees?offset=20&limit=20",
+		"paginatedProperty": "edges"
+	}
+}

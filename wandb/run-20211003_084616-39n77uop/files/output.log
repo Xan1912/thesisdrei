@@ -1,0 +1,54 @@
+2021-10-03 08:46:25.129828: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+2021-10-03 08:46:28.215898: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+
+
+14/14 [==============================] - 48s 562ms/step - loss: 0.7956 - accuracy: 0.4898 - val_loss: 0.7103 - val_accuracy: 0.4694
+Epoch 2/10
+
+
+14/14 [==============================] - 6s 462ms/step - loss: 0.6871 - accuracy: 0.5579 - val_loss: 0.7176 - val_accuracy: 0.4898
+Epoch 3/10
+
+14/14 [==============================] - 6s 406ms/step - loss: 0.6400 - accuracy: 0.6434 - val_loss: 0.6169 - val_accuracy: 0.6122
+Epoch 4/10
+
+
+14/14 [==============================] - 7s 486ms/step - loss: 0.4671 - accuracy: 0.8046 - val_loss: 0.9299 - val_accuracy: 0.6735
+Epoch 5/10
+
+
+
+14/14 [==============================] - 8s 533ms/step - loss: 0.3865 - accuracy: 0.8290 - val_loss: 0.6644 - val_accuracy: 0.7347
+Epoch 6/10
+
+
+14/14 [==============================] - 6s 425ms/step - loss: 0.1561 - accuracy: 0.9518 - val_loss: 1.0002 - val_accuracy: 0.6327
+Epoch 7/10
+
+
+
+14/14 [==============================] - 9s 629ms/step - loss: 0.0740 - accuracy: 0.9716 - val_loss: 1.2166 - val_accuracy: 0.7143
+Epoch 8/10
+
+
+14/14 [==============================] - 7s 460ms/step - loss: 0.0449 - accuracy: 0.9830 - val_loss: 1.5157 - val_accuracy: 0.6122
+Epoch 9/10
+
+
+
+14/14 [==============================] - 8s 580ms/step - loss: 0.0431 - accuracy: 0.9805 - val_loss: 1.3533 - val_accuracy: 0.7347
+Epoch 10/10
+
+
+
+
+14/14 [==============================] - 7s 517ms/step - loss: 0.0611 - accuracy: 0.9746 - val_loss: 1.1533 - val_accuracy: 0.6735
+Result:
+               precision    recall  f1-score   support
+           0       0.50      0.62      0.55        99
+           1       0.56      0.44      0.49       108
+    accuracy                           0.53       207
+   macro avg       0.53      0.53      0.52       207
+weighted avg       0.53      0.53      0.52       207

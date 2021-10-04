@@ -1,0 +1,26 @@
+
+
+>>> config
+{'train_set_size': 0.7, 'batch_size': 32, 'lr': 1e-05, 'eps': 1e-08, 'epochs': 4, 'seed_val': 42}
+
+
+
+
+>>> type(config)
+<class 'wandb.sdk.wandb_config.Config'>
+
+
+
+
+
+
+
+
+
+
+>>> config['train_set_size']
+0.7
+
+
+
+>>> config['train_set_size']exit()

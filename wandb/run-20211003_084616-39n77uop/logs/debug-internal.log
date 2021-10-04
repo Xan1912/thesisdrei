@@ -1,0 +1,201 @@
+2021-10-03 08:46:19,316 INFO    MainThread:96613 [internal.py:wandb_internal():86] W&B internal server running at pid: 96613, started at: 2021-10-03 08:46:19.315936
+2021-10-03 08:46:19,321 INFO    WriterThread:96613 [datastore.py:open_for_write():77] open: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/run-39n77uop.wandb
+2021-10-03 08:46:19,322 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: check_version
+2021-10-03 08:46:19,326 DEBUG   SenderThread:96613 [sender.py:send():182] send: header
+2021-10-03 08:46:19,326 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: check_version
+2021-10-03 08:46:19,488 DEBUG   SenderThread:96613 [sender.py:send():182] send: run
+2021-10-03 08:46:20,048 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: run_start
+2021-10-03 08:46:20,058 INFO    SenderThread:96613 [dir_watcher.py:__init__():168] watching files in: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files
+2021-10-03 08:46:20,058 INFO    SenderThread:96613 [sender.py:_start_run_threads():740] run started: 39n77uop with start time 1633243576
+2021-10-03 08:46:20,058 DEBUG   SenderThread:96613 [sender.py:send():182] send: summary
+2021-10-03 08:46:20,060 INFO    SenderThread:96613 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-03 08:46:21,056 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/wandb-summary.json
+2021-10-03 08:46:26,078 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:46:28,080 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:46:29,242 DEBUG   HandlerThread:96613 [meta.py:__init__():39] meta init
+2021-10-03 08:46:29,242 DEBUG   HandlerThread:96613 [meta.py:__init__():53] meta init done
+2021-10-03 08:46:29,242 DEBUG   HandlerThread:96613 [meta.py:probe():210] probe
+2021-10-03 08:46:29,258 DEBUG   HandlerThread:96613 [meta.py:_setup_git():200] setup git
+2021-10-03 08:46:29,331 DEBUG   HandlerThread:96613 [meta.py:_setup_git():207] setup git done
+2021-10-03 08:46:29,332 DEBUG   HandlerThread:96613 [meta.py:_save_pip():57] save pip
+2021-10-03 08:46:29,335 DEBUG   HandlerThread:96613 [meta.py:_save_pip():71] save pip done
+2021-10-03 08:46:29,336 DEBUG   HandlerThread:96613 [meta.py:probe():252] probe done
+2021-10-03 08:46:29,360 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-03 08:46:29,361 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: stop_status
+2021-10-03 08:46:29,589 DEBUG   SenderThread:96613 [sender.py:send():182] send: files
+2021-10-03 08:46:29,596 INFO    SenderThread:96613 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-10-03 08:46:30,091 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:46:30,092 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/requirements.txt
+2021-10-03 08:46:30,093 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/wandb-metadata.json
+2021-10-03 08:46:30,351 INFO    Thread-11 :96613 [upload_job.py:push():137] Uploaded file /var/folders/px/1zxfplmd2_30spb7ml5gt3z40000gn/T/tmpr8h512tywandb/3407kw39-wandb-metadata.json
+2021-10-03 08:46:44,609 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-03 08:46:44,609 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: stop_status
+2021-10-03 08:46:57,796 DEBUG   SenderThread:96613 [sender.py:send():182] send: stats
+2021-10-03 08:46:59,875 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-03 08:46:59,886 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: stop_status
+2021-10-03 08:47:12,190 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:14,194 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:15,115 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-03 08:47:15,115 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: stop_status
+2021-10-03 08:47:16,196 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:18,203 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:20,206 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:22,208 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:24,214 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:26,216 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:28,219 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:28,263 DEBUG   SenderThread:96613 [sender.py:send():182] send: stats
+2021-10-03 08:47:30,223 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:30,344 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-03 08:47:30,345 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: stop_status
+2021-10-03 08:47:32,225 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:34,233 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:36,239 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:38,247 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:40,254 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:42,260 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:44,265 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:45,603 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-03 08:47:45,604 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: stop_status
+2021-10-03 08:47:46,267 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:48,272 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:50,276 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:52,285 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:54,289 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:56,291 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:58,293 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:47:58,700 DEBUG   SenderThread:96613 [sender.py:send():182] send: stats
+2021-10-03 08:48:00,296 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:48:00,830 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-03 08:48:00,831 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: stop_status
+2021-10-03 08:48:02,299 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:48:04,309 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:48:06,312 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:48:08,321 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:48:10,323 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:48:12,326 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:48:14,329 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:48:16,063 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: stop_status
+2021-10-03 08:48:16,064 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: stop_status
+2021-10-03 08:48:16,333 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:48:18,340 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:48:19,972 DEBUG   SenderThread:96613 [sender.py:send():182] send: history
+2021-10-03 08:48:19,972 DEBUG   SenderThread:96613 [sender.py:send():182] send: summary
+2021-10-03 08:48:19,973 INFO    SenderThread:96613 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-03 08:48:20,346 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/wandb-summary.json
+2021-10-03 08:48:20,347 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:48:22,349 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:48:24,355 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:48:25,300 DEBUG   SenderThread:96613 [sender.py:send():182] send: telemetry
+2021-10-03 08:48:25,300 DEBUG   SenderThread:96613 [sender.py:send():182] send: exit
+2021-10-03 08:48:25,300 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-03 08:48:25,300 INFO    SenderThread:96613 [sender.py:send_exit():291] handling exit code: 0
+2021-10-03 08:48:25,301 INFO    SenderThread:96613 [sender.py:send_exit():293] handling runtime: 125
+2021-10-03 08:48:25,301 INFO    SenderThread:96613 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-03 08:48:25,302 INFO    SenderThread:96613 [sender.py:send_exit():303] send defer
+2021-10-03 08:48:25,302 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: poll_exit
+2021-10-03 08:48:25,302 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: defer
+2021-10-03 08:48:25,303 INFO    HandlerThread:96613 [handler.py:handle_request_defer():145] handle defer: 0
+2021-10-03 08:48:25,303 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: defer
+2021-10-03 08:48:25,303 INFO    SenderThread:96613 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-10-03 08:48:25,303 INFO    SenderThread:96613 [sender.py:transition_state():316] send defer: 1
+2021-10-03 08:48:25,303 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: defer
+2021-10-03 08:48:25,303 INFO    HandlerThread:96613 [handler.py:handle_request_defer():145] handle defer: 1
+2021-10-03 08:48:25,335 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: defer
+2021-10-03 08:48:25,335 INFO    SenderThread:96613 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-10-03 08:48:25,335 INFO    SenderThread:96613 [sender.py:transition_state():316] send defer: 2
+2021-10-03 08:48:25,336 DEBUG   SenderThread:96613 [sender.py:send():182] send: stats
+2021-10-03 08:48:25,336 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: defer
+2021-10-03 08:48:25,337 INFO    HandlerThread:96613 [handler.py:handle_request_defer():145] handle defer: 2
+2021-10-03 08:48:25,337 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: defer
+2021-10-03 08:48:25,337 INFO    SenderThread:96613 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-10-03 08:48:25,337 INFO    SenderThread:96613 [sender.py:transition_state():316] send defer: 3
+2021-10-03 08:48:25,338 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: defer
+2021-10-03 08:48:25,338 INFO    HandlerThread:96613 [handler.py:handle_request_defer():145] handle defer: 3
+2021-10-03 08:48:25,339 DEBUG   SenderThread:96613 [sender.py:send():182] send: summary
+2021-10-03 08:48:25,340 INFO    SenderThread:96613 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-03 08:48:25,340 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: defer
+2021-10-03 08:48:25,340 INFO    SenderThread:96613 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-10-03 08:48:25,340 INFO    SenderThread:96613 [sender.py:transition_state():316] send defer: 4
+2021-10-03 08:48:25,341 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: defer
+2021-10-03 08:48:25,341 INFO    HandlerThread:96613 [handler.py:handle_request_defer():145] handle defer: 4
+2021-10-03 08:48:25,341 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: defer
+2021-10-03 08:48:25,342 INFO    SenderThread:96613 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-10-03 08:48:25,358 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/wandb-summary.json
+2021-10-03 08:48:25,358 INFO    Thread-8  :96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:48:25,408 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-03 08:48:25,574 INFO    SenderThread:96613 [sender.py:transition_state():316] send defer: 5
+2021-10-03 08:48:25,574 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: poll_exit
+2021-10-03 08:48:25,575 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: defer
+2021-10-03 08:48:25,575 INFO    HandlerThread:96613 [handler.py:handle_request_defer():145] handle defer: 5
+2021-10-03 08:48:25,575 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: defer
+2021-10-03 08:48:25,576 INFO    SenderThread:96613 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-10-03 08:48:25,576 INFO    SenderThread:96613 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-10-03 08:48:25,676 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-03 08:48:26,361 INFO    SenderThread:96613 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/config.yaml
+2021-10-03 08:48:26,361 INFO    SenderThread:96613 [dir_watcher.py:finish():312] scan: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files
+2021-10-03 08:48:26,361 INFO    SenderThread:96613 [dir_watcher.py:finish():318] scan save: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/requirements.txt requirements.txt
+2021-10-03 08:48:26,361 INFO    SenderThread:96613 [dir_watcher.py:finish():318] scan save: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log output.log
+2021-10-03 08:48:26,362 INFO    SenderThread:96613 [dir_watcher.py:finish():318] scan save: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/config.yaml config.yaml
+2021-10-03 08:48:26,366 INFO    SenderThread:96613 [dir_watcher.py:finish():318] scan save: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/wandb-summary.json wandb-summary.json
+2021-10-03 08:48:26,371 INFO    SenderThread:96613 [dir_watcher.py:finish():318] scan save: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/wandb-metadata.json wandb-metadata.json
+2021-10-03 08:48:26,377 INFO    SenderThread:96613 [sender.py:transition_state():316] send defer: 6
+2021-10-03 08:48:26,378 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: poll_exit
+2021-10-03 08:48:26,384 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: defer
+2021-10-03 08:48:26,385 INFO    HandlerThread:96613 [handler.py:handle_request_defer():145] handle defer: 6
+2021-10-03 08:48:26,387 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: defer
+2021-10-03 08:48:26,387 INFO    SenderThread:96613 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-10-03 08:48:26,388 INFO    SenderThread:96613 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-03 08:48:26,482 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-03 08:48:26,482 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: poll_exit
+2021-10-03 08:48:26,588 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-03 08:48:26,588 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: poll_exit
+2021-10-03 08:48:26,690 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-03 08:48:26,690 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: poll_exit
+2021-10-03 08:48:26,792 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-03 08:48:26,792 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: poll_exit
+2021-10-03 08:48:26,894 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-03 08:48:26,895 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: poll_exit
+2021-10-03 08:48:26,999 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-03 08:48:27,000 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: poll_exit
+2021-10-03 08:48:27,105 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-03 08:48:27,105 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: poll_exit
+2021-10-03 08:48:27,219 INFO    Thread-12 :96613 [upload_job.py:push():137] Uploaded file /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/requirements.txt
+2021-10-03 08:48:27,221 INFO    Thread-15 :96613 [upload_job.py:push():137] Uploaded file /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/wandb-summary.json
+2021-10-03 08:48:27,222 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-03 08:48:27,222 INFO    Thread-13 :96613 [upload_job.py:push():137] Uploaded file /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/output.log
+2021-10-03 08:48:27,223 INFO    Thread-14 :96613 [upload_job.py:push():137] Uploaded file /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/files/config.yaml
+2021-10-03 08:48:27,224 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: poll_exit
+2021-10-03 08:48:27,329 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-03 08:48:27,329 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: poll_exit
+2021-10-03 08:48:27,428 INFO    Thread-7  :96613 [sender.py:transition_state():316] send defer: 7
+2021-10-03 08:48:27,429 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: defer
+2021-10-03 08:48:27,429 INFO    HandlerThread:96613 [handler.py:handle_request_defer():145] handle defer: 7
+2021-10-03 08:48:27,429 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: defer
+2021-10-03 08:48:27,430 INFO    SenderThread:96613 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-10-03 08:48:27,435 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-03 08:48:27,638 INFO    SenderThread:96613 [sender.py:transition_state():316] send defer: 8
+2021-10-03 08:48:27,639 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: poll_exit
+2021-10-03 08:48:27,639 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: defer
+2021-10-03 08:48:27,639 INFO    HandlerThread:96613 [handler.py:handle_request_defer():145] handle defer: 8
+2021-10-03 08:48:27,640 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: defer
+2021-10-03 08:48:27,640 INFO    SenderThread:96613 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-10-03 08:48:27,640 INFO    SenderThread:96613 [sender.py:transition_state():316] send defer: 9
+2021-10-03 08:48:27,641 DEBUG   SenderThread:96613 [sender.py:send():182] send: final
+2021-10-03 08:48:27,641 DEBUG   SenderThread:96613 [sender.py:send():182] send: footer
+2021-10-03 08:48:27,641 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: defer
+2021-10-03 08:48:27,641 INFO    HandlerThread:96613 [handler.py:handle_request_defer():145] handle defer: 9
+2021-10-03 08:48:27,642 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: defer
+2021-10-03 08:48:27,642 INFO    SenderThread:96613 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-10-03 08:48:27,742 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: poll_exit
+2021-10-03 08:48:27,743 DEBUG   SenderThread:96613 [sender.py:send_request():196] send_request: poll_exit
+2021-10-03 08:48:27,743 INFO    SenderThread:96613 [file_pusher.py:join():182] waiting for file pusher
+2021-10-03 08:48:27,744 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: get_summary
+2021-10-03 08:48:27,746 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: sampled_history
+2021-10-03 08:48:27,746 DEBUG   HandlerThread:96613 [handler.py:handle_request():128] handle_request: shutdown
+2021-10-03 08:48:27,747 INFO    HandlerThread:96613 [handler.py:finish():677] shutting down handler
+2021-10-03 08:48:28,641 INFO    WriterThread:96613 [datastore.py:close():281] close: /Users/user/Desktop/Thesis/wandb/run-20211003_084616-39n77uop/run-39n77uop.wandb
+2021-10-03 08:48:28,743 INFO    SenderThread:96613 [sender.py:finish():979] shutting down sender
+2021-10-03 08:48:28,744 INFO    SenderThread:96613 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-03 08:48:28,744 INFO    SenderThread:96613 [file_pusher.py:join():182] waiting for file pusher
+2021-10-03 08:48:28,753 INFO    MainThread:96613 [internal.py:handle_exit():76] Internal process exited

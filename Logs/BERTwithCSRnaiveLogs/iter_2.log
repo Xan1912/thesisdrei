@@ -1,0 +1,53 @@
+  482 training samples
+   31 validation samples
+  177 test samples
+======== Epoch 1 / 4 ========
+Training...
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Average training loss: 0.70
+Training epcoh took: 0:07:31
+Running Validation...
+  Accuracy: 0.81
+  Validation Loss: 0.65
+  Validation took: 0:00:07
+======== Epoch 2 / 4 ========
+Training...
+Average training loss: 0.68
+Training epcoh took: 0:07:49
+Running Validation...
+  Accuracy: 0.68
+  Validation Loss: 0.66
+  Validation took: 0:00:09
+======== Epoch 3 / 4 ========
+Training...
+Average training loss: 0.64
+Training epcoh took: 0:06:27
+Running Validation...
+  Accuracy: 0.61
+  Validation Loss: 0.63
+  Validation took: 0:00:08
+======== Epoch 4 / 4 ========
+Training...
+Average training loss: 0.58
+Training epcoh took: 0:06:57
+Running Validation...
+  Accuracy: 0.74
+  Validation Loss: 0.62
+  Validation took: 0:00:06
+ DONE.
+******************************* Classification report: *******************************
+Report via manual evaluation:
+Precision:  0.5866666666666667
+Recall:  0.5176470588235295
+Fscore:  0.5499999999999999
+Report via SKlearn:
+              precision    recall  f1-score   support
+           0       0.60      0.66      0.63        92
+           1       0.59      0.52      0.55        85
+    accuracy                           0.59       177
+   macro avg       0.59      0.59      0.59       177
+weighted avg       0.59      0.59      0.59       177

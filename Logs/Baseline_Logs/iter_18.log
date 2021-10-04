@@ -1,0 +1,49 @@
+2021-10-03 10:34:35.847908: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+2021-10-03 10:34:37.583112: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+
+
+
+14/14 [==============================] - 45s 551ms/step - loss: 0.7688 - accuracy: 0.5278 - val_loss: 0.6416 - val_accuracy: 0.7755
+Epoch 2/10
+
+
+14/14 [==============================] - 6s 433ms/step - loss: 0.6586 - accuracy: 0.6263 - val_loss: 0.6243 - val_accuracy: 0.7347
+Epoch 3/10
+
+
+14/14 [==============================] - 6s 420ms/step - loss: 0.5398 - accuracy: 0.7571 - val_loss: 0.7124 - val_accuracy: 0.5714
+Epoch 4/10
+
+14/14 [==============================] - 6s 402ms/step - loss: 0.3467 - accuracy: 0.8835 - val_loss: 0.8344 - val_accuracy: 0.6327
+Epoch 5/10
+
+14/14 [==============================] - 6s 402ms/step - loss: 0.1324 - accuracy: 0.9605 - val_loss: 1.6530 - val_accuracy: 0.6531
+Epoch 6/10
+
+
+14/14 [==============================] - 6s 408ms/step - loss: 0.1430 - accuracy: 0.9395 - val_loss: 1.1777 - val_accuracy: 0.6122
+Epoch 7/10
+
+
+14/14 [==============================] - 6s 409ms/step - loss: 0.0941 - accuracy: 0.9623 - val_loss: 0.9779 - val_accuracy: 0.6531
+Epoch 8/10
+
+
+14/14 [==============================] - 6s 405ms/step - loss: 0.0328 - accuracy: 0.9951 - val_loss: 1.4143 - val_accuracy: 0.7143
+Epoch 9/10
+
+
+14/14 [==============================] - 6s 397ms/step - loss: 0.0168 - accuracy: 0.9942 - val_loss: 1.8462 - val_accuracy: 0.6939
+Epoch 10/10
+
+
+14/14 [==============================] - 6s 400ms/step - loss: 0.0329 - accuracy: 0.9907 - val_loss: 1.6279 - val_accuracy: 0.6735
+Result:
+               precision    recall  f1-score   support
+           0       0.51      0.63      0.56        99
+           1       0.56      0.44      0.50       108
+    accuracy                           0.53       207
+   macro avg       0.54      0.54      0.53       207
+weighted avg       0.54      0.53      0.53       207

@@ -1,0 +1,95 @@
+  482 training samples
+   31 validation samples
+  177 test samples
+Some weights of the model checkpoint at distilbert-base-uncased were not used when initializing DistilBertForSequenceClassification: ['vocab_layer_norm.bias', 'vocab_projector.bias', 'vocab_projector.weight', 'vocab_transform.weight', 'vocab_layer_norm.weight', 'vocab_transform.bias']
+- This IS expected if you are initializing DistilBertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DistilBertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'pre_classifier.bias', 'pre_classifier.weight', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+======== Epoch 1 / 3 ========
+Training...
+Current Loss 0.6630797386169434
+Current Loss 0.6848424077033997
+Current Loss 0.6859967708587646
+Current Loss 0.7242503762245178
+Current Loss 0.7074382305145264
+Current Loss 0.7166314125061035
+Current Loss 0.717400312423706
+Current Loss 0.7383671998977661
+Current Loss 0.6755480170249939
+Current Loss 0.6763865351676941
+Current Loss 0.6900444030761719
+Current Loss 0.7025452852249146
+Current Loss 0.69527667760849
+Current Loss 0.6836704611778259
+Current Loss 0.6879666447639465
+Current Loss 0.6856013536453247
+Average training loss: 0.70
+Training epoch took: 0:03:18
+Running Validation...
+  Accuracy: 0.58
+  Validation Loss: 0.69
+  Validation took: 0:00:03
+======== Epoch 2 / 3 ========
+Training...
+Current Loss 0.7046697735786438
+Current Loss 0.6753764748573303
+Current Loss 0.6532265543937683
+Current Loss 0.6997110247612
+Current Loss 0.6824513077735901
+Current Loss 0.661121666431427
+Current Loss 0.6793761253356934
+Current Loss 0.6749418377876282
+Current Loss 0.6898254156112671
+Current Loss 0.6876267790794373
+Current Loss 0.6629791855812073
+Current Loss 0.6636040806770325
+Current Loss 0.6931259632110596
+Current Loss 0.6598877310752869
+Current Loss 0.6754491329193115
+Current Loss 0.6530517935752869
+Average training loss: 0.68
+Training epoch took: 0:02:45
+Running Validation...
+  Accuracy: 0.48
+  Validation Loss: 0.69
+  Validation took: 0:00:03
+======== Epoch 3 / 3 ========
+Training...
+Current Loss 0.6697919368743896
+Current Loss 0.6574116349220276
+Current Loss 0.6700944304466248
+Current Loss 0.6581896543502808
+Current Loss 0.6790416836738586
+Current Loss 0.6578505635261536
+Current Loss 0.647627055644989
+Current Loss 0.6724511981010437
+Current Loss 0.6681389212608337
+Current Loss 0.6528791189193726
+Current Loss 0.693472146987915
+Current Loss 0.6852958798408508
+Current Loss 0.6500510573387146
+Current Loss 0.668014645576477
+Current Loss 0.6787291169166565
+Current Loss 0.6849405765533447
+Average training loss: 0.67
+Training epoch took: 0:02:53
+Running Validation...
+  Accuracy: 0.55
+  Validation Loss: 0.69
+  Validation took: 0:00:03
+ DONE.
+******************************* Classification report: *******************************
+Report via manual evaluation:
+Precision:  0.5579710144927537
+Recall:  0.875
+Fscore:  0.6814159292035398
+Report via SKlearn:
+              precision    recall  f1-score   support
+           0       0.72      0.31      0.44        89
+           1       0.56      0.88      0.68        88
+    accuracy                           0.59       177
+   macro avg       0.64      0.59      0.56       177
+weighted avg       0.64      0.59      0.56       177
+
+>>> exit()

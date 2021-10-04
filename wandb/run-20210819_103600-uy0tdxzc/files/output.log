@@ -1,0 +1,8 @@
+
+>>>
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Thesis/DISTmain.py", line 36, in <module>
+    actvmodl = DistBert(config)
+
+
+>>> exit()
